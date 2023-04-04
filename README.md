@@ -6,3 +6,4 @@ These are the tutorials followed and practiced from CodingNepal Youtube channel.
 2. [MemoryCardGame](https://hyeo151.github.io/CodingNepal-Projects/2_MemoryCardGame)
 3. [Word Scramble](https://hyeo151.github.io/CodingNepal-Projects/3_WordScramble) 
 4. [Word Guessing](https://hyeo151.github.io/CodingNepal-Projects/4_WordGuessing)
+5. [Typing Speed Test Game](https://hyeo151.github.io/CodingNepal-Projects/5_TypingSpeedTestGame)
