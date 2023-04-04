@@ -16,17 +16,17 @@ body {
 }
 
 .container {
-    width: 750px;
-    height: 420px;
+    max-width: 750px;
+    margin:10px;
     background: #fff;
     border-radius: 10px;
-    padding: 40px;
+    padding: 36px;
 }
 
 .board {
     border: 1.5px solid #c3c3c3;
     border-radius: 6px;
-    padding: 20px;
+    padding: 10px 20px;
     height:100%;
 }
 .text-view {
@@ -35,14 +35,25 @@ body {
     font-size: 19px;
     line-height: 33px;
     border-bottom: 1.5px solid #c3c3c3;
+    padding-bottom: 20px;
 }
 .game-view{
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 1.2fr 1.2fr 1fr 1fr 1fr;
     align-items: center;
     font-size: 19px;
+    padding-top:10px;
+    text-align: center;
 }
+
+.game-status{
+    border-right: 1.5px solid #c3c3c3;
+}
+
+.cpm {
+    border:none;
+}
+
 .game-status span{
     font-weight:500;
 }
@@ -55,4 +66,35 @@ button {
     padding: 7px 18px;
     font-size: 15px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.next-letter {
+    color: green;
+}
+
+.incorrect-letter {
+    background: #ffc0cb;
+    color: #d65157;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.current-letter {
+    border-bottom: 1px solid #2baabe;
+}
+
+@media screen and (max-width:730px){
+    .game-view{
+        grid-template-columns: 1.2fr 1.2fr 1fr 1fr;
+        row-gap:20px;
+        font-size:14px;
+        text-align:initial;
+    }
+    .game-status{
+        border-right: none
+    }    
+    button{
+        grid-column:span 4;
+    }
 }
