@@ -12,7 +12,7 @@
 
 The challenge is to develop a Typing Speed Test game using HTML,CSS and vanilla Javascript. The timer will start at the 60 second mark and WPM (Words Per Minute) and CPM (Character Per Minute) will be calculated as soon as a user starts typing. WPM and CPM will be calculated based on the speed in which the words have been typed; accuracy of the typed letter does not affect the WPM and CPM values. The mistake section will increment for each incorrect character user have input.The 'Try Again' button will reset the game and generate new sets of texts.
 
-![design](./img/1.png)
+![design](./img/1.PNG)
 
 ### Break Down
 
